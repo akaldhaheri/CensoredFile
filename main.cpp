@@ -11,7 +11,7 @@ int main()
   char first = ' ', last = ' ', current;
   if(in.is_open())
   {
-	cout<<"open";
+	in>>first;
 
   }while(!in.eof())
   {
